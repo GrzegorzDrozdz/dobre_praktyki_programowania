@@ -5,17 +5,15 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
 
 
-# ========================
 # KONFIGURACJA BAZY
-# ========================
+
 engine = create_engine("sqlite:///movies.db", echo=True) #  tworzy połączenie do bazy danych.
 Base = declarative_base() #pozwala tworzyć klasy “mapujące się” na tabele.
 Session = sessionmaker(bind=engine) #do operacji typu dodawanie, modyfikacja, zapytania do bazy
 session = Session() #tworzy konkretną sesję, przez którą można dodawać dane i wykonywać zapytania.
 
-# ========================
 # MODELE SQLALCHEMY Z RELACJAMI
-# ========================
+
 
 class Movie(Base):
     __tablename__ = "movies"

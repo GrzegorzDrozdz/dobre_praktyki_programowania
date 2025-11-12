@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Sekrety
+.env
+
+# Bazy danych
+test.db
+*.db
+test_integration.db
