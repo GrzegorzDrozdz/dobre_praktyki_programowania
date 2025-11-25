@@ -37,7 +37,7 @@ Wdrożenie mechanizmów uwierzytelniania i autoryzacji użytkowników.
 
 
 
-### 4\.  Gałąź: `feat/crud-endpoints` (CRUD + Testy Integracyjne)
+### 4\.  Gałąź: `crud-endpoints` (CRUD + Testy Integracyjne)
 
 **Temat:** Pełna obsługa zasobów i testy integracyjne.
 Rozbudowa API o możliwość modyfikacji danych oraz zaawansowane testowanie całych procesów.
